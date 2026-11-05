@@ -28,9 +28,6 @@ class MyApp extends StatelessWidget {
   }
 }
 
-/// ==========================================
-/// 1. NAVIGASI PUSH & POP (Beranda & Tentang)
-/// ==========================================
 class BerandaPage extends StatelessWidget {
   const BerandaPage({super.key});
 
@@ -96,9 +93,6 @@ class TentangPage extends StatelessWidget {
   }
 }
 
-/// ==========================================
-/// 2. KATALOG PRODUK & DETAIL (Kirim Data)
-/// ==========================================
 class ProdukModel {
   final String nama;
   final int harga;
@@ -192,9 +186,6 @@ class ProdukDetailPage extends StatelessWidget {
   }
 }
 
-/// ==========================================
-/// 3. NAMED ROUTES & ARGUMEN
-/// ==========================================
 class HalamanSatu extends StatelessWidget {
   const HalamanSatu({super.key});
 
@@ -298,9 +289,6 @@ class HalamanTiga extends StatelessWidget {
   }
 }
 
-/// ==========================================
-/// BOTTOM NAVIGATION BAR (Beranda, Cari, Profil)
-/// ==========================================
 class UtamaBottomNavScreen extends StatefulWidget {
   const UtamaBottomNavScreen({super.key});
 
